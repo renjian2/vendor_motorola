@@ -79,9 +79,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "com.qualcomm.qti.gpudrivers.kona.api30",
+	name: "com.qualcomm.qti.gpudrivers.sm6150.api30",
 	owner: "motorola",
-	apk: "proprietary/vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk",
+	apk: "proprietary/vendor/app/com.qualcomm.qti.gpudrivers.sm6150.api30/com.qualcomm.qti.gpudrivers.sm6150.api30.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
