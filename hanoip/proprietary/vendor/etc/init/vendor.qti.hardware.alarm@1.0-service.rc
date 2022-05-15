@@ -8,3 +8,4 @@ service alarm-hal-1-0 /vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
     user system
     group system
     oneshot
+    disabled

@@ -39,17 +39,16 @@
         <VideoFormats>
 
         <VideoCodecHeader>
-        <TotalProfiles>8</TotalProfiles>
+        <TotalProfiles>3</TotalProfiles>
         <PreferredDisplaySupport>0</PreferredDisplaySupport>
         </VideoCodecHeader>
-             <!-- AVC Profile 0 - Constrained Baseline,  (LG R2, Windows 10 R2)
-                              1 - Constrained High,      (LG R2, MSFT4K, EZCast/AM8275)
-                              2 - Constrained High2,     (LG R2, Windows 10 R2)
-                              3 - BaseLine               (LG R2, Samsung R2)
-                              4 - Main                   (LG R2, MSFT4K, EZCast/AM8275)
-                              5 - High                   (LG R2, MSFT4K, EZCast/AM8275)
-                 HEVC Profile 0 - Main                   (Samsung R2)
-                              1 - Main 10                (Samsung R2)
+             <!-- AVC Profile 0 - Constrained Baseline,
+                              1 - Constrained High,
+                              2 - Constrained High2,
+                              3 - BaseLine
+                              4 - Main
+                              5 - High
+                  HEVC Profile 0 - Main
             -->
 
             <!-- AVC Level  0 - 3.1,
@@ -71,14 +70,14 @@
             <VideoCodec1>
                 <CodecName>H.264</CodecName>
                 <Profile>0</Profile>
-                <Level>7</Level>
+                <Level>6</Level>
                 <HorizontalResolution>3840</HorizontalResolution>
                 <VerticalResolution>2160</VerticalResolution>
                 <Latency>0</Latency>
                 <MinimumSliceSize>0</MinimumSliceSize>
                 <SliceEncodingParams>0</SliceEncodingParams>
                 <FrameRateControlSupp>1</FrameRateControlSupp>
-                <VideoFps>60</VideoFps>
+                <VideoFps>30</VideoFps>
                 <TranscodingMode>1</TranscodingMode>
                 <NonTranscodingMode>1</NonTranscodingMode>
             </VideoCodec1>
@@ -86,79 +85,19 @@
             <VideoCodec2>
                 <CodecName>H.264</CodecName>
                 <Profile>1</Profile>
-                <Level>7</Level>
+                <Level>6</Level>
                 <HorizontalResolution>3840</HorizontalResolution>
                 <VerticalResolution>2160</VerticalResolution>
                 <Latency>0</Latency>
                 <MinimumSliceSize>0</MinimumSliceSize>
                 <SliceEncodingParams>0</SliceEncodingParams>
                 <FrameRateControlSupp>1</FrameRateControlSupp>
-                <VideoFps>60</VideoFps>
+                <VideoFps>30</VideoFps>
                 <TranscodingMode>1</TranscodingMode>
                 <NonTranscodingMode>1</NonTranscodingMode>
             </VideoCodec2>
 
             <VideoCodec3>
-                <CodecName>H.264</CodecName>
-                <Profile>2</Profile>
-                <Level>7</Level>
-                <HorizontalResolution>3840</HorizontalResolution>
-                <VerticalResolution>2160</VerticalResolution>
-                <Latency>0</Latency>
-                <MinimumSliceSize>0</MinimumSliceSize>
-                <SliceEncodingParams>0</SliceEncodingParams>
-                <FrameRateControlSupp>1</FrameRateControlSupp>
-                <VideoFps>60</VideoFps>
-                <TranscodingMode>1</TranscodingMode>
-                <NonTranscodingMode>1</NonTranscodingMode>
-	    </VideoCodec3>
-
-            <VideoCodec4>
-                <CodecName>H.264</CodecName>
-                <Profile>3</Profile>
-                <Level>7</Level>
-                <HorizontalResolution>3840</HorizontalResolution>
-                <VerticalResolution>2160</VerticalResolution>
-                <Latency>0</Latency>
-                <MinimumSliceSize>0</MinimumSliceSize>
-                <SliceEncodingParams>0</SliceEncodingParams>
-                <FrameRateControlSupp>1</FrameRateControlSupp>
-                <VideoFps>60</VideoFps>
-                <TranscodingMode>0</TranscodingMode>
-                <NonTranscodingMode>1</NonTranscodingMode>
-            </VideoCodec4>
-
-            <VideoCodec5>
-                <CodecName>H.264</CodecName>
-                <Profile>4</Profile>
-                <Level>7</Level>
-                <HorizontalResolution>3840</HorizontalResolution>
-                <VerticalResolution>2160</VerticalResolution>
-                <Latency>0</Latency>
-                <MinimumSliceSize>0</MinimumSliceSize>
-                <SliceEncodingParams>0</SliceEncodingParams>
-                <FrameRateControlSupp>1</FrameRateControlSupp>
-                <VideoFps>60</VideoFps>
-                <TranscodingMode>1</TranscodingMode>
-                <NonTranscodingMode>1</NonTranscodingMode>
-            </VideoCodec5>
-
-            <VideoCodec6>
-                <CodecName>H.264</CodecName>
-                <Profile>5</Profile>
-                <Level>7</Level>
-                <HorizontalResolution>3840</HorizontalResolution>
-                <VerticalResolution>2160</VerticalResolution>
-                <Latency>0</Latency>
-                <MinimumSliceSize>0</MinimumSliceSize>
-                <SliceEncodingParams>0</SliceEncodingParams>
-                <FrameRateControlSupp>1</FrameRateControlSupp>
-                <VideoFps>60</VideoFps>
-                <TranscodingMode>1</TranscodingMode>
-                <NonTranscodingMode>1</NonTranscodingMode>
-            </VideoCodec6>
-
-            <VideoCodec7>
                 <CodecName>H.265</CodecName>
                 <Profile>0</Profile>
                 <Level>4</Level>
@@ -168,27 +107,11 @@
                 <MinimumSliceSize>0</MinimumSliceSize>
                 <SliceEncodingParams>0</SliceEncodingParams>
                 <FrameRateControlSupp>1</FrameRateControlSupp>
-                <VideoFps>60</VideoFps>
+                <VideoFps>30</VideoFps>
                 <TranscodingMode>1</TranscodingMode>
                 <NonTranscodingMode>1</NonTranscodingMode>
-            </VideoCodec7>
-
-            <VideoCodec8>
-                <CodecName>H.265</CodecName>
-                <Profile>1</Profile>
-                <Level>4</Level>
-                <HorizontalResolution>3840</HorizontalResolution>
-                <VerticalResolution>2160</VerticalResolution>
-                <Latency>0</Latency>
-                <MinimumSliceSize>0</MinimumSliceSize>
-                <SliceEncodingParams>0</SliceEncodingParams>
-                <FrameRateControlSupp>1</FrameRateControlSupp>
-                <VideoFps>60</VideoFps>
-                <TranscodingMode>1</TranscodingMode>
-                <NonTranscodingMode>1</NonTranscodingMode>
-            </VideoCodec8>
-
-      </VideoFormats>
+            </VideoCodec3>
+        </VideoFormats>
 
       <!--
           Aux streaming addition added for Direct streaming
@@ -213,7 +136,7 @@
             Standby Resume capability is supported
         -->
         <StandbyResumeCapability>
-            <Valid>1</Valid>
+            <Valid>0</Valid>
         </StandbyResumeCapability>
 
         <!--
@@ -301,7 +224,7 @@
                 <HIDInputPaths>
                     <Infrared>0</Infrared>
                     <USB>3</USB>
-                    <BT>3</BT>
+                    <BT>0</BT>
                     <Zigbee>0</Zigbee>
                     <Wifi>0</Wifi>
                     <NoSP>0</NoSP>
@@ -504,17 +427,17 @@
           <!--  4096x2160p24  -->
             <BIT22>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT22>
           <!--  4096x2160p25  -->
             <BIT23>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT23>
           <!--  4096x2160p30  -->
             <BIT24>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT24>
           <!--  4096x2160p50  -->
             <BIT25>
@@ -785,12 +708,9 @@
 
     <!--
         Compensation delay for audio
-        This is maintain good AV sync in the mux TS A + V stream.
-        QC Recommended value is -150 msec, but that is outside of
-        the WFA recommended valid range of +45 .. -125 msec, and
-        does not appear to work well.
-        Experimentally -65 msec works well for 4K session to LG TV,
-        with audio going to a soundbar over HDMI2.1 eARC link.
+        This is maintain good AV sync in the mux TS A + V stream Recommended
+        value is 150 msec arrived at this number after fine tuning OEMs can
+        change this value in case they want
     -->
     <AudioAVSyncDelay>-150</AudioAVSyncDelay>
 
